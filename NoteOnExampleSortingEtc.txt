@@ -1,0 +1,30 @@
+/*
+	 * public List<Library> getAllLibrariesWithNoBooks() {
+
+		Library libraryWithNoBooks = new Library();
+		
+		libraryWithNoBooks.setCommaSeperatedBooknames("");
+		ExampleMatcher exampleMatcher = ExampleMatcher.matching()
+				.withMatcher("commaSeperatedBooknames", ExampleMatcher.GenericPropertyMatchers.exact())
+				.withIgnorePaths("id", "name");
+		Example<Library> example = Example.of(libraryWithNoBooks, exampleMatcher);
+		return readRepsitory.findAll(example);
+	}
+	
+	SupportTicket supportTicket = new SupportTicket();
+		CCRepDetails ccRepDetails = new CCRepDetails();
+	 */
+	
+	public List <CCRepDetails> getSeniorCCReps()
+	{
+		CCRepDetails ccRepDetails = new CCRepDetails();
+		ccRepDetails.setDesignation("Senior Rep");
+		ExampleMatcher exampleMatcher = ExampleMatcher.matching()
+				.withMatcher("commaSeperatedBooknames", ExampleMatcher.GenericPropertyMatchers.exact())
+				.withIgnorePaths("firstName", "lastName","address");
+		
+		Example <CCRepDetails> example = Example.of(ccRepDetails,exampleMatcher);
+		return daoSample.getAllCCRepDetails(example);
+		
+		
+	}

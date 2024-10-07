@@ -1,0 +1,67 @@
+
+===============================REVISED / LATEST
+WEEK 15
+Day 01
+Introduction to Spring Boot, Introduction to Spring Initializr, How Spring Boot Application Runs	
+Introduction to Dev-Tools, Understanding Actuators and Health Endpoint, 
+Actuators Info EndPoint, 
+Actuators metrics EndPoint
+
+
+Day 02
+Change Base URL to Custom URL, 
+Introduction to Profiling, Port already in use - Resolution, 
+Simple Java POJO Object Creation	
+Test Model Design with CommandLineRunner, 
+Introduction to Lombok Framework, Configuration of Lombok, Lombok Installation, 
+How to avoid BoilerPlate code,
+Introduction to Complex Objects, 
+Initializing Logger with Lombok Annotation, Understanding of Embedded Database
+
+
+Day 03
+Introduction to Controller, Mapping and Dispatcher Servlet, @Controller	
+SpringBoot + JPA + MYSQL CRUD(setting Up Project with UI Thymeleaf + Configuration - Read Operation)
+
+Day 04
+
+SpringBoot + JPA + MYSQL CRUD(Create ,Update & Delete)	
+SpringBoot + JPA + MYSQL CRUD(Create ,Update & Delete)
+==============================================================================
+LAB Day 01
+
+
+
+
+===================================OLD========================================
+
+Week 15
+Day 01
+
+Introduction to Spring Boot, 
+Introduction to Spring Initializr, 
+How Spring Boot Application Runs	
+Break 	
+Introduction to Dev-Tools, 
+Understanding Actuators and Health Endpoint, 
+Actuators Info EndPoint, Actuators metrics EndPoint
+
+Day 02
+Change Base URL to Custom URL, 
+Introduction to Profiling, Port already in use - Resolution, 
+Simple Java POJO Object Creation	
+Break 	
+Test Model Design with CommandLineRunner, 
+Introduction to Lombok Framework, 
+Configuration of Lombok, Lombok Installation, 
+How to avoid BoilerPlate code
+
+Day 03
+SpringBoot + JPA + MYSQL CRUD	
+Break 	
+SpringBoot + JPA + MYSQL CRUD
+
+Day 04
+SpringBoot + JPA + H2	
+Break 	
+SpringBoot + JPA + H2

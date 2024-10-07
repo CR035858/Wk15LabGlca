@@ -1,0 +1,101 @@
+Day 01
+
+1) Simple Hello World - SpringBoot Project Using SpringInitializer---------------------->Ready (Day 01 Demo1) + Demo3 Clubbed
+2) Simple SpringBoot Project with
+	Actuator(Dev Tools , Health & Metrics Endpoints) ------------------------------->Ready(Day 01 Demo2)
+3) Application.properties based configuration [ active endpoint ]
+4) Thymeleaf + html files Navigation------------------------------------------------------>Create(Day 01 Demo3 or in Demo 1)
+OR
+	JSP 
+-------------
+Create 4 properties files
+usage of Dev Tools
+uat,dev,prod
+with different Information and invoking the server on different Ports
+change the active profile and see the effects on
+/app/health
+/app/health/info
+/app//health/metrics
+---
+----
+-----
+------
+
+
+
+--------------
+"application.ready.time",
+"application.started.time",
+"disk.free",
+"disk.total",
+"executor.active",
+"executor.completed",
+"executor.pool.core",
+"executor.pool.max",
+"executor.pool.size",
+"executor.queue.remaining",
+"executor.queued",
+"http.server.requests",
+"jvm.buffer.count",
+"jvm.buffer.memory.used",
+"jvm.buffer.total.capacity",
+"jvm.classes.loaded",
+"jvm.classes.unloaded",
+"jvm.gc.live.data.size",
+"jvm.gc.max.data.size",
+"jvm.gc.memory.allocated",
+"jvm.gc.memory.promoted",
+"jvm.gc.overhead",
+"jvm.gc.pause",
+"jvm.memory.committed",
+"jvm.memory.max",
+"jvm.memory.usage.after.gc",
+"jvm.memory.used",
+"jvm.threads.daemon",
+"jvm.threads.live",
+"jvm.threads.peak",
+"jvm.threads.states",
+"logback.events",
+"process.cpu.usage",
+"process.start.time",
+"process.uptime",
+"system.cpu.count",
+"system.cpu.usage",
+"tomcat.sessions.active.current",
+"tomcat.sessions.active.max",
+"tomcat.sessions.alive.max",
+"tomcat.sessions.created",
+"tomcat.sessions.expired",
+"tomcat.sessions.rejected
+---------------
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Day 02
+1) Lombok Based Application
+2) Model+View+Controller+Dao [Data Generation -without db connection]
+3) html + Thymeleaf
+--------------------------
+Demo 1 --- Previous Day with Lombok
+Demo2 ---- Previous Day one with Lombbok + Views(Html) + Thymeleaf
+Introduction to Complex Objects, 
+Change Base URL to Custom URL
+--------------------------
+Rough Work
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Day 03
+1) Project with JPA + CRUD + MySQL
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Day 04
+
+2) Project with JPA + CRUD + H2
+
+---------------------------\
+Following Projects to be Taken from Old LapTop for the reference
+On which The Lab Demos are to be created
+
+1) SpringBoot Projects [w w/o jsp html thymeleaf]
+use The above Projects as Reference for Day 3 Day 4 also Day 01 
+
