@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="aqua">
+<center>
+	
+<h3>The Support Tickets List .....</h3>
+	<table border="2">
+		<tr><th>Id</th><th>Ticket Title</th><th>Description</th><th>Category</th><th>Ticket Raised Date</th><th>Assigned CCRep</th></tr>
+		<tr th:each="sTicket:${supportTickets}">
+			<td th:text="${sTicket.id}"></td>
+			<td th:text="${sTicket.ticketTitle}"></td>
+			<td th:text="${sTicket.ticketDescription}"></td>
+			<td th:text="${sTicket.category}"></td>
+			<td th:text="${sTicket.ticketRaisedDate}"></td>
+			<td th:text="${sTicket.assignedCCRep}"></td>
+		</tr>
+	</table>
+<a th:href="@{/cgrievance/welcome}">Go Back To Main Page...</a><br/>
+</center>
+</body>
+</html>

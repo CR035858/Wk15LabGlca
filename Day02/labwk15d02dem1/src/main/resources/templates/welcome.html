@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="aqua">
+	<h1> <span th:text = "'Hello, ' + ${greetings}"></span></h1>
+<h3>Welcome to Customer Care Center</h3>
+
+<center>
+	<a th:href="@{/cgrievance/repsInfo}">Click To View All CC Rep Details</a><br/>
+	<a th:href="@{/cgrievance/getTicketsInfo}">Click To View All Support Ticket Details</a>
+	
+	
+	
+</center>
+
+</body>
+</html>

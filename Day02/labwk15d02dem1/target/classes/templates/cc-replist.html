@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="aqua">
+<center>
+<h3>The CC Reps List .....</h3>
+	<table border="2">
+		<tr><th>First Name</th><th>Last Name</th><th>Address</th><th>Department</th><th>Designation</th></tr>
+		<tr th:each="ccRep:${ccRepList}">
+			<td th:text="${ccRep.firstName}"></td>
+			<td th:text="${ccRep.lastName}"></td>
+			<td th:text="${ccRep.address}"></td>
+			<td th:text="${ccRep.department}"></td>
+			<td th:text="${ccRep.designation}"></td>
+		</tr>
+	</table>
+<a th:href="@{/cgrievance/welcome}">Go Back To Main Page...</a><br/>
+</center>
+</body>
+</html>
