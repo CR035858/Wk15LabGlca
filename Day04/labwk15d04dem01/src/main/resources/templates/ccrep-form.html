@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<title>Save CCRep Details</title>
+	<style>
+		body 
+		{
+	        background: #CBDCF7;
+	        margin: 0;
+      	}
+	</style>
+</head>
+<!--
+	
+	int id;
+	String firstName;
+	String lastName;
+	String address;
+	String department;
+	String designation;
+	-->
+<body>
+
+	<div class="container">
+	
+		<h3>CCRep Directory</h3>
+		<hr>
+		
+		<p class="h4 mb-4">Save CCRep Details</p>
+	
+		<form action="#" th:action="@{/cgrievance/save}"
+						 th:object="${ccRep}" method="POST">
+		
+			<!-- Add hidden form field to handle update -->
+			
+			<input type="hidden" th:field="*{id}" />
+			FirstName
+			<input type="text" th:field="*{firstName}"
+					class="form-control mb-4 col-4" placeholder="First Name">
+
+			<input type="text" th:field="*{lastName}"
+					class="form-control mb-4 col-4" placeholder="Last Name">
+
+			<input type="text" th:field="*{address}"
+					class="form-control mb-4 col-4" placeholder="Address">
+			
+			<input type="text" th:field="*{department}"
+					class="form-control mb-4 col-4" placeholder="Department">
+
+			<input type="text" th:field="*{designation}"
+					class="form-control mb-4 col-4" placeholder="Designation">
+				
+			<button type="submit" class="btn btn-info col-2">Save</button>
+						
+		</form>
+	
+		<hr>
+		<a th:href="@{/cgrievance/list}">Back to CCRepresentatives List</a>
+		
+	</div>
+</body>
+
+</html>
